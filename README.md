@@ -6,7 +6,7 @@ Windows containers with .Net Core Apps
 
 ### With SDK Only
 
-File: ```batchapp/Dockerfile``` [Dockerfile](batchapp/Dockerfile)
+[File :](batchapp/Dockerfile)
 
 ### With SDK and Runtime
 
