@@ -1,8 +1,8 @@
 # Building Windows containers with .Net Core Apps
 
-## .Net Core SKD and Runtime versions
+## .Net Core SDK and Runtime versions
 
-- .Net Core SKD and Runtimes at:
+- .Net Core SDK and Runtimes at:
   - https://dotnet.microsoft.com/download/visual-studio-sdks
 - In the Dockerfile, adjust the SDK and SHA version for the version of .Net core you wish to run
 
