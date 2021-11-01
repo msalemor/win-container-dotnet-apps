@@ -6,10 +6,18 @@ Windows containers with .Net Core Apps
 
 ### With SDK Only
 
+File: ```batchapp/Dockerfile```
+
 ### With SDK and Runtime
+
+File: ```batchapp/DockerfileWithFinal```
 
 ## Web/WebApi .Net Core App
 
 ### With SDK Only
 
+File: ```webapp/Dockerfile```
+
 ### With SDK and Runtime
+
+File: ```webapp/DockerfileWithFinal```
