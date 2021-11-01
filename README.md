@@ -19,8 +19,7 @@ Windows containers with .Net Core Apps
 
 ### With SDK Only
 
-File: ```webapp/Dockerfile```
+- [Dockerfile](webapp/Dockerfile)
+- [Buidling with ACR](webapp/buildbatchapp.sh)
 
 ### With SDK and Runtime
-
-File: ```webapp/DockerfileWithFinal```
