@@ -1,6 +1,4 @@
-# Building Windows containers with .Net Apps
-
-Windows containers with .Net Core Apps
+# Building Windows containers with .Net Core Apps
 
 ## .Net Core SKD and Runtime versions
 
