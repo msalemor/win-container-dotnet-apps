@@ -6,7 +6,7 @@ Windows containers with .Net Core Apps
 
 - .Net Core SKD and Runtimes at:
   - https://dotnet.microsoft.com/download/visual-studio-sdks
-- In the Dockerfile, adjust the SKD and SHA version for the version of .Net core you wish to run
+- In the Dockerfile, adjust the SDK and SHA version for the version of .Net core you wish to run
 
 ## Batch .Net Core App
 
