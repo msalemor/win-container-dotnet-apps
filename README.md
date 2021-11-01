@@ -1,4 +1,4 @@
-# win-container-dotnet-apps
+# Building Windows containers with .Net Apps
 
 Windows containers with .Net Core Apps
 
