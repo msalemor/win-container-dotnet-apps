@@ -33,10 +33,10 @@ RUN setx /M PATH "%PATH%;C:\dotnet"
 WORKDIR /src
 
 # Download the projec file
-COPY ["wdocker.csproj", "."]
+COPY ["webapp.csproj", "."]
 
 # Restore the dependencies
-RUN dotnet restore "wdocker.csproj"
+RUN dotnet restore "webapp.csproj"
 
 # Copy everything else
 COPY . .
@@ -45,8 +45,8 @@ COPY . .
 WORKDIR "/src/"
 
 # Build the project
-RUN dotnet build "wdocker.csproj" -c Release -o /app/build
+RUN dotnet build "webapp.csproj" -c Release -o /app/build
 
 EXPOSE 80
 # Run the project
-ENTRYPOINT ["dotnet", "/app/build/wdocker.dll"]
+ENTRYPOINT ["dotnet", "/app/build/webapp.dll"]
